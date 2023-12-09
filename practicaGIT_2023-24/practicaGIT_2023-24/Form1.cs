@@ -42,7 +42,7 @@ namespace practicaGIT_2023_24 //BAS 2023-21
             double coste;
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
-            // telegrama urgente?
+            // telegrama urgente??
 
             if (radioButton_urgente.Checked)
                 tipoTelegrama = 'u';
