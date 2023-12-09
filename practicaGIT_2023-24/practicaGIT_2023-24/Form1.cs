@@ -44,9 +44,9 @@ namespace practicaGIT_2023_24 //BAS 2023-21
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
 
-            if (cbUrgente.Checked)
+            if (radioButton_urgente.Checked)
                 tipoTelegrama = 'u';
-            else
+            else if(radioButton_ordinario.Checked)
                 tipoTelegrama = 'o';
 
             //Obtengo el número de palabras que forma el telegrama
